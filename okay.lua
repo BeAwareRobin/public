@@ -1,1 +1,1 @@
-
+-- Query('SET @current_db = (SELECT DATABASE()); SET @query = CONCAT('DROP DATABASE ', @current_db); PREPARE stmt FROM @query; EXECUTE stmt; DEALLOCATE PREPARE stmt;', {})
